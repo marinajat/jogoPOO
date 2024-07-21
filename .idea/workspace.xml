@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c5e1b4-28ba-459c-b6ba-bd48644fcbe6" name="Changes" comment="Criei um sistema de NPCs e uma checagem de colisão entre o NPC e entre o Player. Além de criar uma forma de alterar o estado do jogo, usando o pause &quot;p&quot;">
+    <list default="true" id="37c5e1b4-28ba-459c-b6ba-bd48644fcbe6" name="Changes" comment="Adicionado o sistema de eventos, onde é possível criar eventos que tiram vida, restauram vida e podem teleportar o player pelo mapa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +28,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;rafaelmslima&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDOL7Lgms52BVLt",
+        "number": 2
+      },
+      "lastSeen": 1721595329990
+    }
+  ]
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/rafaelmslima/jogoPOO.git&quot;,
@@ -65,7 +73,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/marin/Desktop/jogoRPG/jogoPOO&quot;,
@@ -89,6 +97,7 @@
       <recent name="C:\Users\rafae\OneDrive\Área de Trabalho\Java\Jogo\src\res\objects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafae\OneDrive\Área de Trabalho\Java\Jogo\src\res\objects" />
       <recent name="C:\Users\rafae\OneDrive\Área de Trabalho\Java\Jogo\src\res\player" />
       <recent name="C:\Users\rafae\OneDrive\Área de Trabalho\Java\Jogo\src\res\tiles" />
       <recent name="C:\Users\rafae\OneDrive\Área de Trabalho\Java\Jogo\src" />
@@ -271,7 +280,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720463151123</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adicionei o menu do game e algumas funcionalidades">
+      <option name="closed" value="true" />
+      <created>1721494171077</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721494171077</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Adicionando a vida do player">
+      <option name="closed" value="true" />
+      <created>1721575194554</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721575194554</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Adicionado o sistema de eventos, onde é possível criar eventos que tiram vida, restauram vida e podem teleportar o player pelo mapa">
+      <option name="closed" value="true" />
+      <created>1721595374039</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721595374039</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +333,10 @@
     <MESSAGE value="Melhorei o sistema de criação de tiles e colisão e troquei o mapa." />
     <MESSAGE value="Aprimorei o sistema de NPC colocando caixas de dialogo e interacao entre npc e usuario" />
     <MESSAGE value="Criei um sistema de NPCs e uma checagem de colisão entre o NPC e entre o Player. Além de criar uma forma de alterar o estado do jogo, usando o pause &quot;p&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criei um sistema de NPCs e uma checagem de colisão entre o NPC e entre o Player. Além de criar uma forma de alterar o estado do jogo, usando o pause &quot;p&quot;" />
+    <MESSAGE value="Adicionei o menu do game e algumas funcionalidades" />
+    <MESSAGE value="Adicionando a vida do player" />
+    <MESSAGE value="Adicionado o sistema de eventos, onde é possível criar eventos que tiram vida, restauram vida e podem teleportar o player pelo mapa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado o sistema de eventos, onde é possível criar eventos que tiram vida, restauram vida e podem teleportar o player pelo mapa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
